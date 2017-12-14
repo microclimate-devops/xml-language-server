@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefix:team version="wrong version" name="too long a string" xmlns:prefix="team_namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="team_namespace team.xsd ">
+  <prefix:member name="John" badgeNumber="not a number" role="wrong role">
+    <prefix:skills>
+      <prefix:skill>wrong skill</prefix:skill>
+    </prefix:skills>
+    <prefix:focus>
+      
+    </prefix:focus>
+  </prefix:member>
+  <prefix:member badgeNumber="-1" role="developer">
+    <prefix:skills>
+      <prefix:skill>wrong skill</prefix:skill>
+    </prefix:skills>
+  </prefix:member>
+  <prefix:member name="Gabriel" wrong_attribute="1" badgeNumber="100000" role="developer">
+  	<prefix:focus>
+  		<prefix:server language="XML"/>
+  	</prefix:focus>
+  </prefix:member>
+</prefix:team>

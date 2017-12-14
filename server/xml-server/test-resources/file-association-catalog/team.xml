@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<team>
+  <member name="John" badgeNumber="text" role="architect">
+    <skills>
+      <skill>Java</skill>
+    </skills>
+    <focus>
+      <server language="Java"/>
+    </focus>
+  </member>
+</team>

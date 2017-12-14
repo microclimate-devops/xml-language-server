@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<team version="wrong version" name="too long a string" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="team.xsd">
+  <member name="John" badgeNumber="1" role="architect">
+    <skills>
+      <skill>Java</skill>
+    </skills>
+    <focus>
+      <server language="Java"/>
+    </focus>
+  </member>
+</team>

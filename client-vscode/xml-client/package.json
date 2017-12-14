@@ -1,0 +1,72 @@
+{
+    "name": "XMLLanguageSupport",
+    "displayName": "XML Language Support",
+    "description": "XML Language Support for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "IBM",
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "activationEvents": [
+        "onLanguage:xml",
+        "workspaceContains:**/*.xml"
+    ],
+    "main": "./client/extension",
+    "contributes": {
+        "configuration" : {
+            "type": "object",
+            "title": "XML catalog files",
+            "properties" : {
+                "xmlLang.xmlCatalogFiles" : {
+                    "description": "Set the XML catalog files. Use \";\" as the file separators.",
+                    "type": "string"
+                },
+                "xmlLang.xmlAssociations" : {
+                    "description": "Set the XML and schema association.",
+                    "type": "array"
+                },
+                "xmlLang.javaHome": {
+                    "description": "Set the JDK 1.8 folder path required to launch the XML Language Server.",
+					"type": "string"
+				}
+            }
+        }
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "dependencies": {
+        "vscode-languageclient": "^3.3.0"
+    },
+    "devDependencies": {
+        "vscode": "^1.1.5",
+        "vscode-languageclient": "^3.3.0",
+        "vscode-languageserver": "^3.4.2",
+        "mocha": "^3.5.0",
+        "eslint": "^4.6.1"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "icon": "icons/icon.png",
+    "galleryBanner": {
+		"color": "#f2f2f2",
+		"theme": "light"
+	},  
+	"bugs": {
+		"url": "https://github.com/"
+	},
+	"keywords": [
+		"IBM",
+        "xml",
+        "catalog", 
+        "schema", 
+        "xsd", 
+        "validation"
+    ],
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/"
+	}
+}

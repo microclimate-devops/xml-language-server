@@ -1,0 +1,301 @@
+[Diagnostic [
+  range = Range [
+    start = Position [
+      line = 1
+      character = 22
+    ]
+    end = Position [
+      line = 1
+      character = 35
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "Value 'wrong version' of attribute 'version' of element 'prefix:team' is not valid with respect to the corresponding attribute use. Attribute 'version' has a fixed value of '1' (cvc-complex-type.3.1)."
+], Diagnostic [
+  range = Range [
+    start = Position [
+      line = 1
+      character = 43
+    ]
+    end = Position [
+      line = 1
+      character = 60
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "Value 'too long a string' with length = '17' is not facet-valid with respect to maxLength '10' for type '#AnonType_nameteam' (cvc-maxLength-valid)."
+], Diagnostic [
+  range = Range [
+    start = Position [
+      line = 1
+      character = 43
+    ]
+    end = Position [
+      line = 1
+      character = 60
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "The value 'too long a string' of attribute 'name' on element 'prefix:team' is not valid with respect to its type, 'null' (cvc-attribute.3)."
+], Diagnostic [
+  range = Range [
+    start = Position [
+      line = 2
+      character = 42
+    ]
+    end = Position [
+      line = 2
+      character = 54
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "'not a number' is not a valid value for 'integer' (cvc-datatype-valid.1.2.1)."
+], Diagnostic [
+  range = Range [
+    start = Position [
+      line = 2
+      character = 42
+    ]
+    end = Position [
+      line = 2
+      character = 54
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "The value 'not a number' of attribute 'badgeNumber' on element 'prefix:member' is not valid with respect to its type, 'null' (cvc-attribute.3)."
+], Diagnostic [
+  range = Range [
+    start = Position [
+      line = 2
+      character = 62
+    ]
+    end = Position [
+      line = 2
+      character = 72
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "Value 'wrong role' is not facet-valid with respect to enumeration '[developer, manager, leader, architect]'. It must be a value from the enumeration (cvc-enumeration-valid)."
+], Diagnostic [
+  range = Range [
+    start = Position [
+      line = 2
+      character = 62
+    ]
+    end = Position [
+      line = 2
+      character = 72
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "The value 'wrong role' of attribute 'role' on element 'prefix:member' is not valid with respect to its type, 'null' (cvc-attribute.3)."
+], Diagnostic [
+  range = Range [
+    start = Position [
+      line = 4
+      character = 20
+    ]
+    end = Position [
+      line = 4
+      character = 31
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "Value 'wrong skill' is not facet-valid with respect to enumeration '[Java, Node, XML]'. It must be a value from the enumeration (cvc-enumeration-valid)."
+], Diagnostic [
+  range = Range [
+    start = Position [
+      line = 4
+      character = 20
+    ]
+    end = Position [
+      line = 4
+      character = 31
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "The value 'wrong skill' of element 'prefix:skill' is not valid (cvc-type.3.1.3)."
+], Diagnostic [
+  range = Range [
+    start = Position [
+      line = 6
+      character = 5
+    ]
+    end = Position [
+      line = 6
+      character = 17
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "The content of element 'prefix:focus' is not complete. One of '{"team_namespace":server, "team_namespace":client}' is expected (cvc-complex-type.2.4.b)."
+], Diagnostic [
+  range = Range [
+    start = Position [
+      line = 10
+      character = 30
+    ]
+    end = Position [
+      line = 10
+      character = 32
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "Value '-1' is not facet-valid with respect to minExclusive '0' for type '#AnonType_badgeNumbermemberteam' (cvc-minExclusive-valid)."
+], Diagnostic [
+  range = Range [
+    start = Position [
+      line = 10
+      character = 30
+    ]
+    end = Position [
+      line = 10
+      character = 32
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "The value '-1' of attribute 'badgeNumber' on element 'prefix:member' is not valid with respect to its type, 'null' (cvc-attribute.3)."
+], Diagnostic [
+  range = Range [
+    start = Position [
+      line = 10
+      character = 3
+    ]
+    end = Position [
+      line = 10
+      character = 16
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "Attribute 'name' must appear on element 'prefix:member' (cvc-complex-type.4)."
+], Diagnostic [
+  range = Range [
+    start = Position [
+      line = 12
+      character = 20
+    ]
+    end = Position [
+      line = 12
+      character = 31
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "Value 'wrong skill' is not facet-valid with respect to enumeration '[Java, Node, XML]'. It must be a value from the enumeration (cvc-enumeration-valid)."
+], Diagnostic [
+  range = Range [
+    start = Position [
+      line = 12
+      character = 20
+    ]
+    end = Position [
+      line = 12
+      character = 31
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "The value 'wrong skill' of element 'prefix:skill' is not valid (cvc-type.3.1.3)."
+], Diagnostic [
+  range = Range [
+    start = Position [
+      line = 10
+      character = 3
+    ]
+    end = Position [
+      line = 10
+      character = 16
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "The content of element 'prefix:member' is not complete. One of '{"team_namespace":focus}' is expected (cvc-complex-type.2.4.b)."
+], Diagnostic [
+  range = Range [
+    start = Position [
+      line = 15
+      character = 32
+    ]
+    end = Position [
+      line = 15
+      character = 47
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "Attribute 'wrong_attribute' is not allowed to appear in element 'prefix:member' (cvc-complex-type.3.2.2)."
+], Diagnostic [
+  range = Range [
+    start = Position [
+      line = 15
+      character = 65
+    ]
+    end = Position [
+      line = 15
+      character = 71
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "Value '100000' is not facet-valid with respect to maxExclusive '99' for type '#AnonType_badgeNumbermemberteam' (cvc-maxExclusive-valid)."
+], Diagnostic [
+  range = Range [
+    start = Position [
+      line = 15
+      character = 65
+    ]
+    end = Position [
+      line = 15
+      character = 71
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "The value '100000' of attribute 'badgeNumber' on element 'prefix:member' is not valid with respect to its type, 'null' (cvc-attribute.3)."
+], Diagnostic [
+  range = Range [
+    start = Position [
+      line = 16
+      character = 4
+    ]
+    end = Position [
+      line = 16
+      character = 16
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "Invalid content was found starting with element 'prefix:focus'. One of '{"team_namespace":skills}' is expected (cvc-complex-type.2.4.a)."
+]]

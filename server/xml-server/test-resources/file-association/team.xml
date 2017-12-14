@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<team version="wrong version" name="too long a string">
+  <member name="John" badgeNumber="not a number" role="wrong role">
+    <skills>
+      <skill>wrong skill</skill>
+    </skills>
+    <focus>
+      
+    </focus>
+  </member>
+  <member badgeNumber="-1" role="developer">
+    <skills>
+      <skill>wrong skill</skill>
+    </skills>
+  </member>
+  <member name="Gabriel" wrong_attribute="1" badgeNumber="100000" role="developer">
+  	<focus>
+  		<server language="XML"/>
+  	</focus>
+  </member>
+</team>

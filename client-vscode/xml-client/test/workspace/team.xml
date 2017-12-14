@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<team xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="">
+  <member name="Name1" badgeNumber="1" role="invalid">
+    <skills>
+      <skill>Java</skill>
+    </skills>
+    <focus>
+      <server language="Java"/>
+    </focus>
+  </member>
+  <member name="Name2" badgeNumber="2" role="developer">
+    <skills>
+      <skill>Node</skill>
+    </skills>
+    <focus>
+      <client ide="VSCode"/>
+    </focus>
+  </member>
+  <member name="Name3" badgeNumber="3" role="developer">
+    <skills>
+      <skill>XML</skill>
+    </skills>
+    <focus>
+      <server language="XML"/>
+    </focus>
+  </member>
+</team>

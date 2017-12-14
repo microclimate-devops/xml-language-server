@@ -1,0 +1,31 @@
+[Diagnostic [
+  range = Range [
+    start = Position [
+      line = 1
+      character = 1
+    ]
+    end = Position [
+      line = 1
+      character = 5
+    ]
+  ]
+  severity = Warning
+  code = null
+  source = "XML"
+  message = "schema_reference.4: Failed to read schema document 'team.xsd', because 1) could not find the document; 2) the document could not be read; 3) the root element of the document is not <xsd:schema>."
+], Diagnostic [
+  range = Range [
+    start = Position [
+      line = 1
+      character = 1
+    ]
+    end = Position [
+      line = 1
+      character = 5
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "Cannot find the declaration of element 'team' (cvc-elt.1)."
+]]

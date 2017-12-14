@@ -1,0 +1,31 @@
+[Diagnostic [
+  range = Range [
+    start = Position [
+      line = 2
+      character = 35
+    ]
+    end = Position [
+      line = 2
+      character = 39
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "'text' is not a valid value for 'integer' (cvc-datatype-valid.1.2.1)."
+], Diagnostic [
+  range = Range [
+    start = Position [
+      line = 2
+      character = 35
+    ]
+    end = Position [
+      line = 2
+      character = 39
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "The value 'text' of attribute 'badgeNumber' on element 'member' is not valid with respect to its type, 'null' (cvc-attribute.3)."
+]]

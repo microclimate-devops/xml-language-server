@@ -1,0 +1,16 @@
+[Diagnostic [
+  range = Range [
+    start = Position [
+      line = 1
+      character = 8
+    ]
+    end = Position [
+      line = 1
+      character = 8
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "Content is not allowed in trailing section."
+]]

@@ -1,0 +1,16 @@
+[Diagnostic [
+  range = Range [
+    start = Position [
+      line = 0
+      character = 6
+    ]
+    end = Position [
+      line = 0
+      character = 11
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "The value of attribute "wrong" associated with an element type "team" must not contain the '<' character."
+]]

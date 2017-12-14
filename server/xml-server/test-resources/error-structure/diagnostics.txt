@@ -1,0 +1,16 @@
+[Diagnostic [
+  range = Range [
+    start = Position [
+      line = 2
+      character = 0
+    ]
+    end = Position [
+      line = 2
+      character = 0
+    ]
+  ]
+  severity = Error
+  code = null
+  source = "XML"
+  message = "XML document structures must start and end within the same entity."
+]]
