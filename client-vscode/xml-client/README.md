@@ -17,7 +17,7 @@ Getting Started
 # Sample Project
 The theme for the sample project consists of an invoice. For each scenario a schema and a sample XML file with errors is provided. The goal is to use the XML schema validation feature to implement the corrections necessary to fix the document. For each scenario a second XML file with all fixes in place is provided to verify results. The sample project can be downloaded here:
 
-<SAMPLE PROJECT!>
+[examples.zip](https://raw.githubusercontent.com/microclimate-devops/xml-language-server/master/client-vscode/xml-client/readme-resources/examples.zip)
 
 Extract the archive into a directory and open the directory with Visual Studio Code. Each example in the project is contained within a subdirectory. The steps below described each scenario in detail.
 
@@ -62,24 +62,24 @@ This example shows how create file name based associations between XML and XSD d
 
 Schema Validation - Invalid data type
 -------------------------------------
-![Fixing a data type error](readme-resources/error-datatype.gif)
+![Fixing a data type error](https://raw.githubusercontent.com/microclimate-devops/xml-language-server/master/client-vscode/xml-client/readme-resources/error-datatype.gif)
 
 Schema Validation - Invalid enumeration
 ---------------------------------------
-![Fixing an enumeration error](readme-resources/error-enumeration.gif)
+![Fixing an enumeration error](https://raw.githubusercontent.com/microclimate-devops/xml-language-server/master/client-vscode/xml-client/readme-resources/error-enumeration.gif)
 
 Schema Validation - Missing content
 -----------------------------------
-![Fixing missing content](readme-resources/error-missing-content.gif)
+![Fixing missing content](https://raw.githubusercontent.com/microclimate-devops/xml-language-server/master/client-vscode/xml-client/readme-resources/error-missing-content.gif)
 
 Schema Validation - Invalid content
 -----------------------------------
-![Fixing invalid content](readme-resources/error-invalid-content.gif)
+![Fixing invalid content](https://raw.githubusercontent.com/microclimate-devops/xml-language-server/master/client-vscode/xml-client/readme-resources/error-invalid-content.gif)
 
 Structural Error - Invalid attribute
 ------------------------------------
-![Fixing an invalid attribute](readme-resources/error-structure-attribute.gif)
+![Fixing an invalid attribute](https://raw.githubusercontent.com/microclimate-devops/xml-language-server/master/client-vscode/xml-client/readme-resources/error-structure-attribute.gif)
 
 Structural Error - Invalid element
 ----------------------------------
-![Fixing an invalid element](readme-resources/error-structure-element.gif)
+![Fixing an invalid element](https://raw.githubusercontent.com/microclimate-devops/xml-language-server/master/client-vscode/xml-client/readme-resources/error-structure-element.gif)
