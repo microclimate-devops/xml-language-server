@@ -55,7 +55,7 @@
 		"theme": "light"
 	},  
 	"bugs": {
-		"url": "https://github.com/"
+		"url": "https://github.com/microclimate-devops/xml-language-server"
 	},
 	"keywords": [
 		"IBM",
@@ -67,6 +67,6 @@
     ],
     "repository": {
 		"type": "git",
-		"url": "https://github.com/"
+		"url": "https://github.com/microclimate-devops/xml-language-server"
 	}
 }
