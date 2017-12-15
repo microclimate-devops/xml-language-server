@@ -47,7 +47,7 @@ This example shows how schemas can be resolved using the XML Catalog.
 
 File Association
 ----------------
-This example shows how create file name based associations between XML and XSD documents. This is particularly useful when working with XML files that do not contain references to schema or catalog entries.
+This example shows how to create file name based associations between XML and XSD documents. This is particularly useful when working with XML files that do not contain references to schema or catalog entries.
  - Open .vscode/settings.json
  - Notice the "\*/file_association/invoice_\*.xml" pattern value associated to the systemId "file_association/invoice.xsd". This will cause any file with its name starting with "invoice_" in the file_association directory to be validated against file_association/invoice.xsd schema.
  - Open file_association/invoice.xml
