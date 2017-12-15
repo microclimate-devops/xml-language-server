@@ -2,7 +2,7 @@
     "name": "XMLLanguageSupport",
     "displayName": "XML Language Support",
     "description": "XML Language Support for Visual Studio Code",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "IBM",
     "engines": {
         "vscode": "^1.17.0"
@@ -62,8 +62,7 @@
         "xml",
         "catalog", 
         "schema", 
-        "xsd", 
-        "validation"
+        "xsd"
     ],
     "repository": {
 		"type": "git",
