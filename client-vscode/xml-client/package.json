@@ -8,8 +8,7 @@
         "vscode": "^1.17.0"
     },
     "activationEvents": [
-        "onLanguage:xml",
-        "workspaceContains:**/*.xml"
+        "onLanguage:xml"
     ],
     "main": "./client/extension",
     "contributes": {
