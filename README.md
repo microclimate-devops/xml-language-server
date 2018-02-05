@@ -20,3 +20,6 @@ cd xml-language-server/server/xml-server
 ## Contributing
 
 See the [CONTRIBUTING](CONTRIBUTING.md) document for details on submitting pull requests.
+
+## Client Implementations
+* [XML Language Support for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=IBM.XMLLanguageSupport)
