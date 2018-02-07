@@ -1,6 +1,6 @@
 # XML Language Server
 
-The XML Language Server is an implementation of the [Language Server Protocol](https://github.com/Microsoft/language-server-protocol). It currently supports complex schema-based XML validation.  The server written in Java and is based on [Eclipse LSP4J](https://github.com/eclipse/lsp4j), the Java binding for the Language Server Protocol.
+The XML Language Server is an implementation of the [Language Server Protocol](https://github.com/Microsoft/language-server-protocol). It currently supports complex schema-based XML validation. The server is written in Java and is based on [Eclipse LSP4J](https://github.com/eclipse/lsp4j), the Java binding for the Language Server Protocol.
 
 ## Features
 
