@@ -1,4 +1,6 @@
-# XML Language Support for Visual Studio Code
+# [Deprecated] XML Language Support for Visual Studio Code
+
+**Note:** This extension has been deprecated due to inactivity and we recommend the [XML extension](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml).
 
 Features
 --------

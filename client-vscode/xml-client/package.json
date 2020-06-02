@@ -1,8 +1,8 @@
 {
     "name": "XMLLanguageSupport",
-    "displayName": "XML Language Support",
-    "description": "XML Language Support for Visual Studio Code",
-    "version": "1.0.0",
+    "displayName": "[Deprecated] XML Language Support",
+    "description": "[Deprecated] XML Language Support for Visual Studio Code",
+    "version": "1.0.1",
     "publisher": "IBM",
     "engines": {
         "vscode": "^1.17.0"
